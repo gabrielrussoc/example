@@ -32,3 +32,11 @@ func TestReverse(t *testing.T) {
 		}
 	}
 }
+
+func TestLcov(t *testing.T) {
+    s := "bla"
+    ex := WillLcovCoverMe(s)
+    if s != ex {
+        t.Errorf("error")
+    }
+}

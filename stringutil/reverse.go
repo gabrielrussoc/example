@@ -29,3 +29,7 @@ func Reverse(s string) string {
 func SomethingElse(s string) string {
     return s
 }
+
+func WillLcovCoverMe(s string) string {
+    return s
+}
